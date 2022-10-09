@@ -172,7 +172,7 @@ class TuyaPlatform {
         this.accessories.set(uuid, deviceAccessory.homebridgeAccessory);
         this.deviceAccessories.set(uuid, deviceAccessory);
         break;
-      case 'mcs':
+      case 'mc':
         deviceAccessory = new ContactSensorAccessory(this, homebridgeAccessory, device);
         this.accessories.set(uuid, deviceAccessory.homebridgeAccessory);
         this.deviceAccessories.set(uuid, deviceAccessory);
